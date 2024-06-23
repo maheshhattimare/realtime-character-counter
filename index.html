@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Character Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Realtime Character Counter</h1>
+        <textarea class="textarea" id="textarea" placeholder="Enter your text here..."></textarea>
+
+        <div class="counter-container">
+            <p>Total Characters: <span id="total-character">0</span></p>
+            <div class="check-box">
+                <label for="excludeSpaces">Exclude Spaces</label>
+                <input type="checkbox" name="checkbox" id="excludeSpaces">
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
